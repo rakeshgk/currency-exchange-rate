@@ -6,7 +6,9 @@ An API which gives the value of Indian Rupee versus some of the other currencies
 Based on the data available from the RSS feed - http://themoneyconverter.com/rss-feed/INR/rss.xml
 
 Parses the XML file and returns a dictionary which looks like this
+
 The interpretation is - "unit foreign currency : x Indian rupees"
+
     {   u'AED': 0.05873,
         u'ARS': 0.12797,
         u'AUD': 0.01793,
