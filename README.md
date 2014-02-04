@@ -28,3 +28,19 @@ The interpretation is - "unit foreign currency : x Indian rupees"
         u'CNY': 0.09691,
         u'COP': 2.63529,
         ...}
+
+How to use the API?
+
+a. Create an object of the class - CurrencyRates
+
+    cObj = CurrencyRates()
+
+b. Call the read_rss_feed method
+
+    cObj.read_rss_feed()
+
+c. Store the dictionary returned by parse_xml
+
+    exchange_rates = cObj.parse_xml()
+
+d. Lastly, Don't forget to switch on the Internet!! You can look at the main method in the script if this is not helping you with the API usage
